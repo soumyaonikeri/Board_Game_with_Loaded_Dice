@@ -24,5 +24,19 @@ This is a two-player circular board game implemented in Python. Players roll a l
 ## Tests
 Unit tests are provided for the board, player, and dice functionalities. To run the tests:
 ```sh
-python -m unittest discover tests
+python -m unittest discover -s tests
 ```
+# To test each file seperately
+-follow below coomand
+```sh
+python -m unittest tests/test_board.py
+```
+```sh
+python -m unittest tests/test_dice.py
+```
+```sh
+python -m unittest tests/test_player.py
+```
+
+
+
