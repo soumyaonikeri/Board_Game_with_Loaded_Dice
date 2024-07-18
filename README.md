@@ -9,7 +9,7 @@ This is a two-player circular board game implemented in Python. Players roll a l
 ## How to Run
 1. Clone the repository:
     ```sh
-    git clone <repository_url>
+    git clone https://github.com/soumyaonikeri/Board_Game_with_Loaded_Dice.git
     ```
 2. Run the game:
     ```sh
@@ -26,8 +26,7 @@ Unit tests are provided for the board, player, and dice functionalities. To run 
 ```sh
 python -m unittest discover -s tests
 ```
-# To test each file seperately
--follow below coomand
+#To test each file seperately run following commands
 ```sh
 python -m unittest tests/test_board.py
 ```
